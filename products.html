@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Products</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/products.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/Background.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/Home.css">
+        <link href = "css/Contact.css" rel = "stylesheet" type = "text/css">
+		<script src = "index.js"></script>
+		
+	</head>
+	<body id = "body" onload = "loadMenu(true); inventory(); uncheck();">
+		<div class = "category">
+			<div class = "categorylink">
+				<form id = "priceFilter">
+					<label>Price</label>
+					<input type = "checkbox" name = "price" id = "0" class = "100" onchange = "priceFilter()"><span>Under $100</span><br>
+					<input type = "checkbox" name = "price" id = "100" class = "500" onchange = "priceFilter()"><span>$100-$500</span><br>
+					<input type = "checkbox" name = "price" id = "500" class = "1000" onchange = "priceFilter()"><span>$500-$1000</span><br>
+					<input type = "checkbox" name = "price" id = "1000" class = "over" onchange = "priceFilter()"><span>Over $1000</span><br>
+				</form>
+			</div>
+			<div class = "categorylink">
+				<form>
+					<label>Sort By:</label>
+					<input type = "radio" name = "sort" id = "1" onchange = "priceFilter()"><span>Alphabetical<br>(A - Z)</span><br>
+					<input type = "radio" name = "sort" id = "2" onchange = "priceFilter()"><span>Alphabetical<br>(Z - A)</span><br>
+					<input type = "radio" name = "sort" id = "3" onchange = "priceFilter()"><span>Price<br>(low - high)</span><br>
+                    <input type = "radio" name = "sort" id = "4" onchange = "priceFilter()"><span>Price<br>(high - low)</span>
+				</form>
+			</div>
+		</div>
+		<div class = "main-contain">	
+			<div id = "imageclick" class = "cover">
+				<a href = "#"></a>
+				<div class = "popup" id = "popup">
+				</div>
+			</div>
+		</div>
+		<div id = "checkpopup">
+			<div id="content">
+				<a class="close" href = "#" onclick = "exit()">&times</a>
+				<h3>Thank You for your Purchase!</h3>
+				<p>Have a great day!<p>
+				<img src="Images/up.jpg" alt="Thumbs Up" style="width:304px;height:228px;">
+			</div>
+		</div>
+		<div id = "shoppingTab">
+			<img src = "Images/shoppingcartlogo.jpg"></img>
+			<div>
+				<div id = "innerTab"></div>
+				<div class = "checkout">
+					<div id = "checkoutButton"><span onclick = "display()"><a href = "#checkpopup">Checkout</a></span></div>
+					<div id = "totalPrice"><span>Total Price</span><br><span id = "total">$0.00</span></div>
+				</div>
+			</div>
+		</div>
+        <div id="slidepwr">
+			<img src="Images/contact.png" alt="Contact" />
+			<div id="sliderminion">
+				<form class = "forms">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="fname" autofocus required>
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lname" required>
+					<label for="email">Email Address</label>
+					<input type="text" id="email" name="email">
+					<label for="comments">Comments</label><br>
+					<textarea id = "comments" name = "comments" required></textarea>
+					<input value = "Submit" type = "submit" name = "submit">
+				</form>
+			</div>
+		</div>	
+		<div class = "background">
+			<ul class = "bg-bubbles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</body>
+</html>

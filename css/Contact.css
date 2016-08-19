@@ -1,0 +1,70 @@
+#contactus:active ~ .forms {
+	z-index: 3;
+}
+
+.forms  {
+	position: absolute;
+	float: left;
+	z-index: 0;
+}
+
+.forms > input {
+	width: 200px;
+	display: block;
+	margin-bottom: 1vh;
+}
+
+.forms > label {
+	position: relative;
+	float: left;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.forms > #comments {
+	height: 70px;
+	float: left;
+	width: 200px;
+}
+
+.forms > input[type = submit] {
+	background-color: #4d88ff;
+	color: #FFFFFF;
+}
+
+.forms > input[type = submit]:hover {
+	background-color: #2eb82e;
+}
+
+#slidepwr {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    width: 35px;
+    padding: 12px 0;
+    text-align: center;
+    background: #0000FF;
+    transition-duration: 0.3s;
+    border-radius: 0 5px 5px 0;
+	z-index: 2;
+}
+
+#sliderminion {
+    position: fixed;
+    bottom: 40px;
+    left: -250px;
+    background: #0000FF;
+    width: 200px;
+    padding: 25px;
+    height: 275px;
+    transition-duration: 0.3s;
+    text-align: left;
+    border-radius: 0 0 5px 0;
+}
+
+#slidepwr:hover {
+    left: 250px;
+}
+#slidepwr:hover #sliderminion {
+    left: 0;
+}

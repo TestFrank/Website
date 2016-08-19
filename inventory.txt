@@ -1,0 +1,85 @@
+1,4D Printer,Printer,Snicker,Prints in four dimensions,1800.24,4dprinter.jpg
+2,Gaming Chair,Chair,SuperComfort,Ergonomic chair with armrests,516.89,gamingchair.jpg
+3,Hologram monitor,Monitors,Dull,1280 X 816 resolution,200.08,hologrammonitor.jpg
+4,Live mouse,Mice,Wrat,6 button laser tracking,96.23,livemouse.jpg
+5,Floppy Disk,Hard Drive,Belly Flop,5TB of data,62.02,savebutton.jpg
+6,3D Printer,Printer,Deell,Prints quickly,1450.76,3dprinter.jpg
+7,Super Speakers,Speakers,Speech,5.1 Stereo sound,249.99,superspeaker.jpg
+8,Bee Antivirus,Software,Strm,1 year subsription,99.99,beeantivirus.jpg
+9,Key Anitivirus,Software,Kasperlee,2 Year subscription,149.99,keyantivirus.jpg
+10,BenQ HT1075,Projector,BenQ,Big-Screen Enjoyment Made Simple with Wireless Full HD,999.99,benqht1075.jpg
+11,Acer H6510BD,Projector,Acer,Movies gain depth and feeling with available 3D solutions that deliver stereoscopic visuals,199.99,acerh6510bd.jpg
+12,Sony VPLHW40ES,Projector,Sony,An outstanding cinematic experience for home theatre applications in 2D and 3D,1899.99,sonyvplhw40es.jpg
+13,ASUS S1,Projector,Asus,ULTRA-PORTABLE LED Projector and Mobile Power in ONE,499.99,asuss1.jpg
+14,AMD Z-2300,CPU,AMD,Next generation Zen processor,139.99,zen.jpg
+15,AMD Z-4200,CPU,AMD,Next generation Zen processor,199.99,zen.jpg
+16,AMD Z-8300,CPU,AMD,Next generation Zen processor,329.99,zen.jpg
+17,AMD Z-1600,CPU,AMD,Next generation Zen processor,104.99,zen.jpg
+18,AMD FX-6300,CPU,AMD,Six Core 3.5/4.1GHZ Processor,129.99,amdfx6300.jpg
+19,AMD FX-9590,CPU,AMD,8 Core 4.7/5.0GHZ Processor AM3+ 16MB Cache,260.99,amdfx9590.jpg
+20,AMD FX-8350,CPU,AMD,8 Core 4.0/4.2 GHz Processor AM3+ 16MB Cache,210.99,amdfx8350.jpg
+21,AMD Athlon X4 860K Black Edition,CPU,AMD,4.0/3.7GHZ 4MB 95W FM2+ Processor,95.99,athlonx4860k.jpg
+22,AMD A10 7860K,CPU,AMD,AMD Quiet Cooler Quad Core APU 3.6/4.0GHZ Processor FM2+ 4MB Cache,139.99,amda107860k.jpg
+23,Intel Core i7-6700K,CPU,Intel,8M Cache 4GHZ Base 4.2GHZ Turbo FC-LGA1151,470.99,i7-6700k.jpg
+24,Intel Core i5-6600K,CPU,Intel,3.90GHZ 6M Cache FC-LGA14C LGA1151,315.99,i5-6600k.jpg
+25,Intel Core i5-6600,CPU,Intel,Quad-Core Processor - Socket LGA1151 3.3Ghz 6MB L3 Cache 14nm,299.99,skylakei5.jpg
+26,Intel Core i3-6100,CPU,Intel,Dual-Core Processor - Socket LGA1151 3.7Ghz 3MB L3 Cache 14nm,163.99,skylakei3.jpg
+27,Intel Pentium G4400,CPU,Intel,LGA1151 3.3G 3M,94.99,skylakepentium.jpg
+28,Intel Core i7-5820K,CPU,Intel,Six-Core Socket LGA2011 3.3GHz  15MB L3 Cache 22nm,510.99,i7-5820k.jpg
+29,Intel Core i7-5930K,CPU,Intel,Six-Core Socket LGA2011 3.50Ghz 15MB L3 Cache 22nm,749.99,i7-5820k.jpg
+30,Intel Core i7-4790K,CPU,Intel,Quad-Core Processor - Socket LGA1150 4.0Ghz 8MB L3 Cache 22nm,450.99,i7haswell.jpg
+31,Intel Core i7-4790,CPU,Intel,Quad-Core Processor - Socket LGA1150 3.6Ghz 8MB L3 Cache 22nm,405.99,i7haswell.jpg
+32,Intel Core i5-4690K,CPU,Intel,Quad-Core Processor - Socket LGA1150 3.5Ghz 6MB L3 Cache 22nm,310.99,i5haswell.jpg
+33,Intel Core i5-4690,CPU,Intel,Quad-Core Processor - Socket LGA1150 3.5Ghz 6MB L3 Cache 22nm,295.99,i5haswell.jpg
+34,Intel Core i5-4570S,CPU,Intel,Quad-Core Processor - Socket LGA1150 2.9Ghz 6MB L3 Cache 22nm,279.98,i5haswell.jpg
+35,Intel Core i3-4170,CPU,Intel,Dual-Core Processor - Socket LGA1150 3.70Ghz 3MB L3 Cache 22nm,160.99,i3haswell.jpg
+36,Intel Core i3-4370,CPU,Intel,Dual-Core Processor - Socket LGA1150 3.80Ghz 4MB L3 Cache 22nm,204.99,i3haswell.jpg
+37,Intel Pentium G3258,CPU,Intel,Dual-Core Processor - Socket LGA1150 3.20Ghz 3MB L3 Cache 22nm,93.05,pentiumanniversary.jpg
+38,Intel Pentium G3220,CPU,Intel,Dual-Core Processor - Socket LGA1150 3.00Ghz 3MB L3 Cache 22nm,70.49,pentium3.jpg
+39,Intel Pentium G3450,CPU,Intel,Dual-Core Processor - Socket LGA1150 3.40Ghz 4MB L3 Cache 22nm,125.08,pentium3.jpg
+40,Intel Pentium G3440,CPU,Intel,Dual-Core Processor - Socket LGA1150 3.30Ghz 3MB L3 Cache 22nm,82.01,pentium3.jpg
+41,AOC U2879VF,Monitors,AOC,28 inch 4K Ultra HD Widescreen LED Monitor with Freesync,500.00,aocu2879vf.jpg
+42,LG 22MP48HQ-P,Monitors,LG,IPS Widescreen LED Monitor - 1920 x 1080 5ms,130.99,lg22mp48hqp.jpg
+43,ASUS VS247H-P,Monitors,Asus,23.6 inch Full HD LED SLIM Widescreen Monitor - 1920x1080,199.99,asusvs247hp.jpg
+44,BenQ RL2455HM,Monitors,BenQ,24 inch Widescreen LED Gaming Monitor - 1920 x 1080 1ms (GtG),223.98,benqrl2455hm.jpg
+45,Acer KN242HYL,Monitors,Acer,23.8 inch WideScreen IPS LED Monitor -1920 x 1080 4ms,222.98,acerkn242hyl.jpg
+46,WD Blue 1TB Desktop Hard Disk Drive,Hard Drive,WD,7200 RPM SATA 6 Gb/s 64MB Cache 3.5 Inch,62.50,wdblue.jpg
+47,Seagate Desktop HDD 1TB,Hard Drive,Seagate,3.5 inch SATA3 64MB Cache,64.01,seagated.jpg
+48,Seagate Desktop HDD 2TB,Hard Drive,Seagate,3.5 inch SATA3 64MB Cache,91.99,seagated.jpg
+49,Seagate Desktop HDD 3TB,Hard Drive,Seagate,3.5 inch SATA3 64MB Cache,121.99,seagated.jpg
+50,WD Red 3TB NAS Desktop Hard Disk Drive,Hard Drive,WD,Intellipower SATA 6 Gb/s 64MB Cache 3.5 Inch,140.01,wdred.jpg
+51,WD Red 4TB NAS Desktop Hard Disk Drive,Hard Drive,WD,Intellipower SATA 6 Gb/s 64MB Cache 3.5 Inch,209.03,wdred.jpg
+52,WD Black 1TB Performance Desktop Hard Disk Drive,Hard Drive,WD,7200 RPM SATA 6 Gb/s 64MB Cache 3.5 Inch,99.99,wdblack.jpg
+53,WD Black 2TB Performance Desktop Hard Disk Drive,Hard Drive,WD,7200 RPM SATA 6 Gb/s 64MB Cache 3.5 Inch,165.55,wdblack.jpg
+54,Kingston SSDNow V300 480GB ,Hard Drive,Kingston,480GB 7mm SATA 6Gb/s Solid State Drive (SSD) Read: 450MB/s Write: 450MB/s ,164.99,badssd.jpg
+55,Intel 530 Series 240GB,Hard Drive,Intel,240GB 2.5 inch SATA 6Gb/s Solid State Driveÿ,149.99,intelssd.jpg
+56,Kingston SSDNow V300 120GB,Hard Drive,Kingston,120GB 7mm SATA 6Gb/s Solid State Drive (SSD) Read: 450MB/s Write: 450MB/s ,54.99,badssd120.jpg
+57,Kingston SSDNow V300 240GB,Hard Drive,Kingston,240GB 7mm SATA 6Gb/s Solid State Drive (SSD) Read: 450MB/s Write: 450MB/sÿ,79.99,badssd240.jpg
+58,ADATA Premier SP550 240GB,Hard Drive,ADATA,240GB SATA 2.5 inch Solid State Driveÿ,75.99,sp550.jpg
+59,Kingston HyperX FURY 120GB,Hard Drive,Kingston,120GB SATA 6Gb/s Solid State Drive,59.99,hyperxfury120.jpg
+60,Samsung 850 EVO 250GB,Hard Drive,Samsung,250GB 2.5 inch 6Gb/s Solid State Drive (SSD) ,139.99,samsungevo.jpg
+61,Samsung 750 EVO 120GB,Hard Drive,Samsung,120GB 2.5 inch 6Gb/s Solid State Drive (SSD),139.99,samsungevo.jpg
+62,ADATA Premier SP550 960GB,Hard Drive,ADATA,960GB SATA 2.5'' Solid State Drive (SSD),299.99,sp550.jpg
+63,ADATA Premier SP550 120GB,Hard Drive,ADATA,120GB SATA 2.5'' Solid State Drive (SSD),46.99,sp550.jpg
+64,Fractal Design Define Nano S,Cases,Fractal Design,Black Window Case,92.99,nanos.jpg
+65,Corsair Carbide Series 300R,Cases,Corsair,Windowed Gaming Case Blackÿ,119.99,300r.jpg
+66,NZXT H440,Cases,NZXT,Steel Mid Tower Case Matte Black & Black Closed Panel,149.99,h440.jpg
+67,Logitech B100,Mice,Logitech,B100 is a comfortable plug-and-play mouse with built-in quality and optical precision. The comfortable lower-profile shape feels good in either hand even after a long day of work. You'll enjoy smooth precise cursor control that lets you edit documents and navigate the Web more efficiently.,9.99,b100.jpg
+68,Microsoft Wireless Mobile Mouse 1850,Mice,Microsoft,The Wireless Mobile Mouse 1850 is designed for life on the go offering wireless freedom and built-in transceiver storage for ultimate mobility. Comfortable to use with either hand and a scroll wheel for easy navigation makes this mouse the ideal device for your modern mobile lifestyle.,15.99,mc1850.jpg
+69,Razer DeathAdder Chromaÿ,Mice,Razer,Multi-Color Ergonomic 4G Optical Gaming Mouse,89.99,deathadder.jpg
+70,Corsair Sabre,Mice,Corsair,Light weight at just 100g the Corsair Gaming Sabre RGB 10000 DPI gaming mouse offers easy comfort and fluid reach balanced by consistently accurate tracking a 1000 Hz refresh rate eight configurable buttons and super-responsive switches. Four-zone 16.8M color backlighting creates a beautiful personalized look that matches your style.,56.99,corsairsabre.jpg
+71,E-Blue Cobra II,Mice,E-Blue,Cobra II is an entry level gaming mouse with a sleek design and all of the features a casual gamer could ever need!,16.99,cobraii.jpg
+72,MSI Interceptor DS300,Mice,MSI,An incredible mouse with a USB 2.0 Gold Plated connector,68.99,intercepter.jpg
+73,Roccat Kone Pure Optical,Mice,Roccat,Our ROCCAT Scientists built the Kone Pure for gamers who wanted the same killer Kone design!,34.77,konepure.jpg
+74,SteelSeries Rival 100,Mice,SteelSeries,Whether this is your first gaming mouse or you're already topping the leaderboards the Rival 100 is the gaming mouse for you,49.99,rival100.jpg
+75,Logitech K120,Keyboards,Logitech,Standard wired keyboard,14.99,k120.jpg
+76,Microsoft WK600,Keyboards,Microsoft,This keyboard combines a spill-resistant keyboard with all the features you need and more with Microsoft quality and reliability. Enjoy plug-and-play setup Windows Vista integration Microsoft Xbox 360 compatibility Quiet Touch keys with quick access to media controls and calculator,13.99,mk600.jpg
+77,Razer BlackWidow Chroma,Keyboards,Razer,The Razer BlackWidow Chroma features individually programmable backlit keys with 16.8 million color options,220.01,blackwidow.jpg
+78,Thermaltake Tt eSports Poseidon Z,Keyboards,Thermaltake,a budget friendly full featured keyboard; Perfect for both a first time mechanical keyboard user and a mechanical keyboard enthusiast,125.44,psk.jpg
+79,Corsair Gaming K70 RGB RAPIDFIRE,Keyboards,Corsair,To compete at the highest level you need the fastest mechanical keyboard there is. RAPIDFIRE?s lightning-quick responsiveness and 100% anti-ghosting technology lets you strike with an unmatched combination of speed and precision. And the forged aluminum frame is built to withstand storm after storm of keystrokes so you?ll always live to fight another day. Corsair Utility Engine (CUE) enables sophisticated macros and dramatic lighting effects. The USB pass-through port is positioned for uninterrupted game play and a detachable wrist rest keeps you playing for hours.,230.04,k70.jpg
+80,Corsair Vengeance K65,Keyboards,Corsair,Vengeance K65 is the compact high-performance mechanical gaming keyboard for travelling gamers or anybody who has limited space. The full-size key spacing won?t throw you off your game and the Cherry MX Red key switches give you smooth linear key response for ultra fast double and triple taps without the audible click.,109.55,k65.jpg
+81,Sennheiser RS 165,Headphones,Sennheiser,Allowing you to listen to your movies or music wirelessly without bothering others the RS 165 Digital Wireless Headphone System from Sennheiser operates on the 2.4 GHz band and provides up to a 98' range of operation. The system consists of a pair of RS 165 closed circumaural headphones a transmitter base that doubles as a charge cradle and docking station a power supply with 4 adapters an analog audio cable. The RS 165 headphones have a selectable bass boost for more pronounced low end while the transmitter can support up to 2 pairs of headphones at once with a second pair of compatible headphones (available separately).,275.99,rs165.jpg
+82,Sennheiser Urbanite,Headphones,Sennheiser,"The Sennheiser Urbanite On-Ear Headphones for Apple iOS mobile devices offers a durable and stylish metal design with stainless-steel hinges aluminum sliders and closed-back supra-aural dynamic transducers. This combination delivers clear treble and enhanced bass with an extended frequency response of 16 to 22000 Hz a THD of less than 0.5% and a maximum SPL of 118 dB. They come with a detachable in-line omnidirectional microphone remote control for making calls changing volume and navigating tracks when using your Apple iOS or other mobile device. The headphones feature an 1/8"" (3.5mm) plug for connecting to your smartphone or other mobile device. The headphones fold for portability and come with a soft storage pouch.",175.99,urbanite.jpg
+83,Sennheiser Momentum 2,Headphones,Sennheiser,The version of the Sennheiser Momentum 2 Lifestyle Around-Ear Hifi Headphones feature an integrated smartphone remote control and microphone cable for managing media and making calls on your Android mobile device. The design features closed-back earcups that help isolate from environmental noise and encase proprietary dynamic 18 ohm neodymium transducers to drive extra large diaphragms for clear highs and powerful bass over a frequency response of 16 to 22000 Hz.,399.95,momentum.jpg
+84,JVC HA-FR202,Headphones,JVC,XX Series inner-ear headphones are upgraded for 2015 with 11mm Neodymium driver units and Extreme Deep Bass Ports for the ultimate bass sound. They feature a 1-button mic/remote for iPhone/iPod/iPad/BlackBerry/Android. Rubber protectors on the ear buds provide extra durability. Five color selections are offered to fit any personality.,39.99,jvcha.jpg
+85,Sony MDR-EX110AP,Headphones,Sony,The MDR-EX110AP Monitor Headphones for Android Devices from Sony allow you to play back audio from take calls from and control your compatible Android smartphone. They feature 9mm drivers with Neodymium magnets as well as an in-line microphone and remote. The remote is compatible with Sony's Smart Key app which allows you to assign different actions to button clicks for customized Android control.,39.95,smdr.jpg

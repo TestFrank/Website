@@ -1,0 +1,44 @@
+#box {
+	position: relative;
+	float: right;
+	z-index: 2;
+	margin: .5vw;
+}
+
+.field {
+    overflow: hidden;
+	width: 300px;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+#field input#searchbutton {
+  width: 300px;
+  height: 30px;
+  background: #FFC617;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#field input#searchbutton::-webkit-input-placeholder {
+   color: #3180BD;
+}
+ 
+#field input#searchbutton::-moz-placeholder {
+   color: #3180BD;
+}
+
+#field input#searchbutton:hover, #field input#searchbutton:focus, #field input#searchbutton:active{
+    outline-color: #030302;
+    background: #F22A5C;
+}
+
+input.icon {
+	background-image: url(icon.png)
+}

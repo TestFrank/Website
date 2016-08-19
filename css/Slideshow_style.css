@@ -1,0 +1,379 @@
+@font-face {
+	font-family: "cs-ctrl-basic";
+	src: url("cs-ctrl-basic.eot");
+	src: url("cs-ctrl-basic.eot#iefix") format("embedded-opentype"),
+		 url("cs-ctrl-basic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+/*/slideshow style/*/
+.slideshow {
+	display: inline-block;
+	position: relative;
+	text-align: right;
+	top: 0;
+	border-style: solid #FFFFFF;
+	border-width: 0vw 15vw 0vw 15vw;
+	margin-top: 10vh;
+}
+/*/input invisble to the eye/*/
+.slideshow > input{
+	position: absolute;
+	left: 0px;
+	z-index: -1;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+/*/images size/*/
+ul > .slide.img img {
+	margin: auto;
+	min-width: 65vw;
+	min-height: 50vh;
+	max-width: 65vw;
+	max-height: 65vh;
+	opacity: 0.5;
+}
+
+ul > .slide {
+	position: relative;
+	overflow: hidden;
+	font-size: 15px;
+	font-size: initial;
+	line-height: normal;
+	white-space: normal;
+	vertical-align: top;
+}
+/*/change labels to front/*/
+#slide_0:checked ~ .arrowprev > label.num4,
+#slide_0:checked ~ .arrownext > label.num1,
+#slide_1:checked ~ .arrowprev > label.num0,
+#slide_1:checked ~ .arrownext > label.num2,
+#slide_2:checked ~ .arrowprev > label.num1,
+#slide_2:checked ~ .arrownext > label.num3,
+#slide_3:checked ~ .arrowprev > label.num2,
+#slide_3:checked ~ .arrownext > label.num4,
+#slide_4:checked ~ .arrowprev > label.num3,
+#slide_4:checked ~ .arrownext > label.num0 {
+	opacity: 1;
+	z-index: 5;
+}
+/*/bullet style/*/
+.bullets {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 6;
+	font-size: 0;
+	line-height: 8pt;
+	text-align: center;
+}
+
+.bullets > div {
+	margin-right: 50%;
+	width: 100%;
+}
+
+.bullets > label {
+	position: relative;
+}
+
+.bullets > label > .thumb {
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+	line-height: 0;
+	left: -48px;
+	top: -48px;
+}
+/*/description style/*/
+.description {
+  z-index: 3;
+}
+
+.description > label {
+	position: absolute;
+	word-wrap: break-word;
+	white-space: normal;
+	text-align: left;
+	max-width: 50%;
+	left: 0;
+}
+
+.description > label > span {
+	vertical-align: top;
+}
+
+.description > label span {
+	display: inline-block;
+}
+/*/sildeshow animation/*/
+ul > .slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	opacity: 1;
+	z-index: 2;
+	-webkit-transition: -webkit-transform 600ms cubic-bezier(0.600, -0.280, 0.875, -0.105);
+	transition: transform 600ms cubic-bezier(0.600, -0.280, 0.875, -0.105);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+#slide_0:checked ~ ul > .slide.num0,
+#slide_1:checked ~ ul > .slide.num1,
+#slide_2:checked ~ ul > .slide.num2,
+#slide_3:checked ~ ul > .slide.num3,
+#slide_4:checked ~ ul > .slide.num4 {
+	z-index: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: -webkit-transform 1000ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+	transition: transform 1000ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+ /*/arrow button style and animation/*/
+.arrowprev,
+.arrownext {
+	position: absolute;
+	top: 40%;
+	z-index: 5;
+	opacity: 0;
+	-webkit-transform: translateY(-30px);
+	transform: translateY(-30px);
+}
+
+.arrowprev > label,
+.arrownext > label {
+	position: absolute;
+	cursor: pointer;
+	opacity: 0;
+	z-index: -1;
+	height: 2vw;
+	width: 2vw;
+	padding: 1vw;
+	background-color: #CBECFD;
+	border-radius: 50%;
+} 
+ 
+.arrowprev {
+	-webkit-transition: .4s all .15s ease;
+	transition: .4s all .15s ease;
+	left: 1vw;
+}
+
+.arrownext {
+	-webkit-transition: .4s all .3s ease;
+	transition: .4s all .3s ease;
+	right: 5vw;
+}
+
+
+.slideshow:hover > .arrowprev,
+.slideshow:hover > .arrownext {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.arrowprev > label span,
+.arrownext > label span {
+	display: block;
+	color: #3A4A5A;
+	width: 2vw;
+	height: 2vw;
+}
+
+.arrowprev > label span:after,
+.arrownext > label span:after {
+	display: block;
+	width: 2vw;
+	height: 2vw;
+	font: 2vw "cs-ctrl-basic";
+	line-height: 2vw;
+	text-align: center;
+}
+
+.arrowprev > label span:after {
+	content: '\e800';
+}
+
+.arrownext > label span:after {
+	content: '\e801';
+}
+
+.arrowprev:hover > label,
+.arrownext:hover > label {
+	background-color: #e5f6fe;
+}
+
+.arrownext:hover > label span {
+	-webkit-animation: nextArrow .7s infinite ease-in-out;
+	animation: nextArrow .7s infinite ease-in-out;
+}
+
+.arrowprev:hover > label span {
+	-webkit-animation: prevArrow .7s infinite ease-in-out;
+	animation: prevArrow .7s infinite ease-in-out;
+}
+
+@keyframes nextArrow {
+	0%, 100% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+	25% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+	75% {
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
+	}
+}
+@keyframes prevArrow {
+	0%, 100% {
+		-webkit-transform: translateX(0px);
+		transform: translateX(0px);
+	}
+	25% {
+		-webkit-transform: translateX(-2px);
+		transform: translateX(-2px);
+	}
+	75% {
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+}
+/*/bullet style/*/
+.bullets {
+	bottom: 3vh;
+}
+
+.bullets > label {
+	border-radius: 50%;
+	margin: 0.5vw;
+	padding: 0.7vw;
+	background: #CBECFD;
+}
+
+.bullets > label > .thumb > img{
+	width: 5vw;
+	height: 5vh;
+}
+
+.bullets > label > .thumb {
+	border: 0.25vw solid #CBECFD;
+	margin-left: 1.25vw;
+}
+
+.bullets > label:hover > .thumb {
+	margin-top: -1vh;
+	margin-left: 1.25vw;
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.bullets > label > .point {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	border-radius: 50%;
+	padding: 0.2vw;
+	margin-top: -0.25vw;
+	margin-left: -0.2vw;
+}
+
+.bullets > label:hover > .point,
+#slide_0:checked ~ .bullets > label.num0 > .point,
+#slide_1:checked ~ .bullets > label.num1 > .point,
+#slide_2:checked ~ .bullets > label.num2 > .point,
+#slide_3:checked ~ .bullets > label.num3 > .point,
+#slide_4:checked ~ .bullets > label.num4 > .point {
+	background: #3A4A5A;
+}
+/*/description animation/*/
+.description > label {
+	font-family: "Open Sans Condensed",sans-serif;
+	font-size: 1.5vw;
+	line-height: normal;
+	text-align: right;
+	bottom: 2vh;
+	right: 1vw;
+	top: auto;
+	left: auto;
+}
+
+.description > label > span {
+	color: #3A4A5A;
+	position: relative;
+	padding: 1vw;
+	border-radius: 15%;
+}
+
+#slide_0:checked ~ .description > .num0 > .title,
+#slide_0:checked ~ .description > .num0 > .descr,
+#slide_1:checked ~ .description > .num1 > .title,
+#slide_1:checked ~ .description > .num1 > .descr,
+#slide_2:checked ~ .description > .num2 > .title,
+#slide_2:checked ~ .description > .num2 > .descr,
+#slide_3:checked ~ .description > .num3 > .title,
+#slide_3:checked ~ .description > .num3 > .descr,
+#slide_4:checked ~ .description > .num4 > .title,
+#slide_4:checked ~ .description > .num4 > .descr {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+	font-family: balthazar;
+	font-style: normal;
+	font-weight: 400;
+	color: rgba(78,214,255,1.00);
+}
+
+.description > label > .title {
+	opacity: 0;
+	background-color: #DDF2FD;
+	visibility: hidden;
+	z-index: 2;
+	-webkit-transform: translateY(-100px);
+	transform: translateY(-100px);
+	-webkit-transition: 950ms opacity 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    950ms -webkit-transform 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    950ms visibility 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	transition: 950ms opacity 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    950ms transform 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+    950ms visibility 300ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	color: rgba(78,214,255,1.00);
+	font-family: balthazar;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.description > label > .descr {
+	opacity: 0;
+	background-color: #FFFFFF;
+	text-align: left;
+	font-size: 0.8em;
+	visibility: hidden;
+	z-index: 2;
+	-webkit-transform: translateY(100px);
+	transform: translateY(100px);
+	-webkit-transition: 950ms opacity 550ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+	950ms -webkit-transform 550ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+	950ms visibility 550ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	color: rgba(78,214,255,1.00);
+	transition: 950ms opacity 550ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+	950ms transform 550ms cubic-bezier(0.680, -0.550, 0.265, 1.550),
+	950ms visibility 550ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+	color: rgba(78,214,255,1.00);
+	font-family: balthazar;
+	font-style: normal;
+	font-weight: 400;
+}

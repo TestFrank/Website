@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Website</title>
+		<link href = "css/Background.css" rel = "stylesheet" type = "text/css"/>
+		<link href = "css/Slideshow_style.css" rel = "stylesheet" type = "text/css">
+		<link href = "css/Home.css" rel = "stylesheet" type = "text/css">
+        <link href = "css/products.css" rel = "stylesheet" type = "text/css">
+        <link href = "css/Contact.css" rel = "stylesheet" type = "text/css">
+		<script src = "index.js"></script>
+	</head>
+	<body id = "body" onload = "loadMenu(false);">
+		<div class = 'slideshow'>
+			<input name = "anchor" id = 'slide_0' type = "radio" class = 'slide' checked>
+			<input name = "anchor" id = 'slide_1' type = "radio" class = 'slide'>
+			<input name = "anchor" id = 'slide_2' type = "radio" class = 'slide'>
+			<input name = "anchor" id = 'slide_3' type = "radio" class = 'slide'>
+			<input name = "anchor" id = 'slide_4' type = "radio" class = 'slide'>
+			
+			<ul>
+				<li><img src = "images/Slide show images/empty.png" style = "width: 65vw; opacity: 0;"></li>
+				<li class = 'num0 img slide'> <img src = 'Images/productpictures/amdfx8350.jpg' alt = 'empty' title = 'empty' /></li>
+				<li class = 'num1 img slide'> <img src = 'Images/productpictures/momentum.jpg' alt = 'empty' title = 'empty' /></li>
+				<li class = 'num2 img slide'> <img src = 'Images/productpictures/i7-6700k.jpg' alt = 'empty' title = 'empty' /></li>
+				<li class = 'num3 img slide'> <img src = 'Images/productpictures/livemouse.jpg' alt = 'empty' title = 'empty' /></li>
+				<li class = 'num4 img slide'> <img src = 'Images/productpictures/4dprinter.jpg' alt = 'empty' title = 'empty' /></li>
+			</ul>
+			
+			<div class = 'description'>
+				<label class = 'num0'><span class = "title">AMDFX8350</span><br/><span class = "descr">8 Core 4.0/4.2 GHz Processor AM3+ 16MB Cache</span></label>
+				<label class = 'num1'><span class = "title">Sennheiser Momentum 2</span><br/><span class = "descr">The version of the Sennheiser Momentum 2 Lifestyle Around-Ear Hifi Headphones feature an integrated smartphone remote control and microphone cable for managing media and making calls on your Android mobile device.</span></label>
+				<label class = 'num2'><span class = "title">Intel Core i7-6700K</span><br/><span class = "descr">8M Cache 4GHZ Base 4.2GHZ Turbo FC-LGA1151</span></label>
+				<label class = 'num3'><span class = "title">Live mouse</span><br/><span class = "descr">6 button laser tracking</span></label>
+				<label class = 'num4'><span class = "title">4D Printer</span><br/><span class = "descr">Prints in four dimensions</span></label>
+			</div>
+		
+			<div class = 'arrowprev'>
+				<label class = 'num0' for = 'slide_0'><span><i></i><b></b></span></label>
+				<label class = 'num1' for = 'slide_1'><span><i></i><b></b></span></label>
+				<label class = 'num2' for = 'slide_2'><span><i></i><b></b></span></label>
+				<label class = 'num3' for = 'slide_3'><span><i></i><b></b></span></label>
+				<label class = 'num4' for = 'slide_4'><span><i></i><b></b></span></label>
+			</div>
+			
+			<div class = 'arrownext'>
+				<label class = 'num0' for = 'slide_0'><span><i></i><b></b></span></label>
+				<label class = 'num1' for = 'slide_1'><span><i></i><b></b></span></label>
+				<label class = 'num2' for = 'slide_2'><span><i></i><b></b></span></label>
+				<label class = 'num3' for = 'slide_3'><span><i></i><b></b></span></label>
+				<label class = 'num4' for = 'slide_4'><span><i></i><b></b></span></label>
+			</div>
+			
+			<div class = 'bullets'>
+				<label class = 'num0' for = 'slide_0'> <span class = 'point'></span>
+				<span class = 'thumb'><img src = 'Images/productpictures/amdfx8350.jpg' alt = 'empty' title = 'empty' /></span></label>
+				<label class = 'num1' for = 'slide_1'> <span class = 'point'></span>
+				<span class = 'thumb'><img src = 'Images/productpictures/momentum.jpg' alt = 'empty' title = 'empty' /></span></label>
+				<label class = 'num2' for = 'slide_2'> <span class = 'point'></span>
+				<span class = 'thumb'><img src = 'Images/productpictures/i7-6700k.jpg' alt = 'empty' title = 'empty' /></span></label>
+				<label class = 'num3' for = 'slide_3'> <span class = 'point'></span>
+				<span class = 'thumb'><img src = 'Images/productpictures/livemouse.jpg' alt = 'empty' title = 'empty' /></span></label>
+				<label class = 'num4' for = 'slide_4'> <span class = 'point'></span>
+				<span class = 'thumb'><img src = 'Images/productpictures/4dprinter.jpg' alt = 'empty' title = 'empty' /></span></label>
+			</div>
+		</div>
+        <div id="slidepwr">
+			<img src="Images/contact.png" alt="Contact" />
+			<div id="sliderminion">
+				<form class = "forms">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="fname" autofocus required>
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lname" required>
+					<label for="email">Email Address</label>
+					<input type="text" id="email" name="email" required>
+					<label for="comments">Comments</label><br>
+					<textarea id = "comments" name = "comments" required></textarea>
+					<input value = "Submit" type = "submit" name = "submit">
+				</form>
+			</div>
+		</div>	
+	</body>
+	<div class = "background">
+		<ul class = "bg-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</html>
+
+
+
+
+
+
